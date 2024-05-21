@@ -1,0 +1,161 @@
+nohup: ignoring input
+before signal registration
+after registration
+starting data loading
+Done with data loading
+Using cuda
+loaded background with shape  torch.Size([512, 512, 3])
+loading index map for latent codes...
+loaded latent codes from checkpoint, with shape torch.Size([5507, 32])
+loaded custom background of shape torch.Size([512, 512, 3])
+initialized latent codes with shape 1000 X 32
+computing boundix boxes probability maps
+PatchNCE target size:  [512, 512]
+Starting loop
+  0%|          | 0/1000000 [00:00<?, ?it/s]predicting
+Done prediction
+Directional CLIP loss: 1.0126953125
+Perceptual loss: 0.9179987907409668
+Back Propogate for iteration:  0
+                                           ================== Saved Checkpoint =================
+  0%|          | 0/1000000 [00:58<?, ?it/s]  0%|          | 1/1000000 [00:58<16271:45:04, 58.58s/it]predicting
+Done prediction
+Directional CLIP loss: 0.99462890625
+Perceptual loss: 0.9253982901573181
+Back Propogate for iteration:  1
+  0%|          | 2/1000000 [01:53<15707:59:30, 56.55s/it]predicting
+Done prediction
+Directional CLIP loss: 0.98876953125
+Perceptual loss: 0.9910586476325989
+Back Propogate for iteration:  2
+  0%|          | 3/1000000 [02:52<16006:38:19, 57.62s/it]predicting
+Done prediction
+Directional CLIP loss: 0.9619140625
+Perceptual loss: 1.0600274801254272
+Back Propogate for iteration:  3
+  0%|          | 4/1000000 [03:47<15726:34:34, 56.62s/it]predicting
+Done prediction
+Directional CLIP loss: 0.96875
+Perceptual loss: 1.1428815126419067
+Back Propogate for iteration:  4
+  0%|          | 5/1000000 [04:44<15754:23:09, 56.72s/it]predicting
+Done prediction
+Directional CLIP loss: 0.95556640625
+Perceptual loss: 1.2201156616210938
+Back Propogate for iteration:  5
+  0%|          | 6/1000000 [05:43<15987:04:49, 57.55s/it]predicting
+Done prediction
+Directional CLIP loss: 0.9501953125
+Perceptual loss: 1.2817474603652954
+Back Propogate for iteration:  6
+  0%|          | 7/1000000 [06:40<15875:01:15, 57.15s/it]predicting
+Done prediction
+Directional CLIP loss: 0.9404296875
+Perceptual loss: 1.3415143489837646
+Back Propogate for iteration:  7
+  0%|          | 8/1000000 [07:35<15705:01:50, 56.54s/it]predicting
+Done prediction
+Directional CLIP loss: 0.92919921875
+Perceptual loss: 1.3825291395187378
+Back Propogate for iteration:  8
+  0%|          | 9/1000000 [08:32<15721:54:01, 56.60s/it]predicting
+Done prediction
+Directional CLIP loss: 0.93017578125
+Perceptual loss: 1.4197124242782593
+Back Propogate for iteration:  9
+  0%|          | 10/1000000 [09:28<15704:40:18, 56.54s/it]predicting
+Done prediction
+Directional CLIP loss: 0.94091796875
+Perceptual loss: 1.4685570001602173
+Back Propogate for iteration:  10
+  0%|          | 11/1000000 [10:24<15628:34:39, 56.26s/it]predicting
+Done prediction
+Directional CLIP loss: 0.9404296875
+Perceptual loss: 1.4955668449401855
+Back Propogate for iteration:  11
+  0%|          | 12/1000000 [11:19<15532:11:05, 55.92s/it]predicting
+Done prediction
+Directional CLIP loss: 0.943359375
+Perceptual loss: 1.525312066078186
+Back Propogate for iteration:  12
+  0%|          | 13/1000000 [12:14<15509:36:50, 55.84s/it]predicting
+Done prediction
+Directional CLIP loss: 0.93115234375
+Perceptual loss: 1.554706335067749
+Back Propogate for iteration:  13
+  0%|          | 14/1000000 [13:16<15998:25:20, 57.60s/it]predicting
+Done prediction
+Directional CLIP loss: 0.93359375
+Perceptual loss: 1.5941829681396484
+Back Propogate for iteration:  14
+  0%|          | 15/1000000 [14:14<16050:20:16, 57.78s/it]predicting
+Done prediction
+Directional CLIP loss: 0.92919921875
+Perceptual loss: 1.6256848573684692
+Back Propogate for iteration:  15
+  0%|          | 16/1000000 [15:10<15863:19:15, 57.11s/it]predicting
+Done prediction
+Directional CLIP loss: 0.92822265625
+Perceptual loss: 1.6742534637451172
+Back Propogate for iteration:  16
+  0%|          | 17/1000000 [16:06<15754:16:14, 56.72s/it]predicting
+Done prediction
+Directional CLIP loss: 0.9169921875
+Perceptual loss: 1.7034841775894165
+Back Propogate for iteration:  17
+  0%|          | 18/1000000 [17:01<15604:51:23, 56.18s/it]predicting
+Done prediction
+Directional CLIP loss: 0.912109375
+Perceptual loss: 1.7588531970977783
+Back Propogate for iteration:  18
+  0%|          | 19/1000000 [17:58<15723:48:57, 56.61s/it]predicting
+Done prediction
+Directional CLIP loss: 0.90625
+Perceptual loss: 1.8205784559249878
+Back Propogate for iteration:  19
+  0%|          | 20/1000000 [19:00<16161:59:56, 58.18s/it]predicting
+Done prediction
+Directional CLIP loss: 0.89208984375
+Perceptual loss: 1.8904517889022827
+Back Propogate for iteration:  20
+  0%|          | 21/1000000 [19:55<15916:00:33, 57.30s/it]predicting
+Done prediction
+Directional CLIP loss: 0.88525390625
+Perceptual loss: 1.951759934425354
+Back Propogate for iteration:  21
+  0%|          | 22/1000000 [20:52<15894:47:28, 57.22s/it]predicting
+Done prediction
+Directional CLIP loss: 0.87841796875
+Perceptual loss: 1.9913285970687866
+Back Propogate for iteration:  22
+  0%|          | 23/1000000 [21:48<15804:29:15, 56.90s/it]predicting
+Done prediction
+Directional CLIP loss: 0.876953125
+Perceptual loss: 2.0252931118011475
+Back Propogate for iteration:  23
+--Return--
+> /root/miniconda3/lib/python3.8/site-packages/torch/autograd/__init__.py(173)backward()->None
+-> Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+(Pdb)   0%|          | 23/1000000 [22:31<16323:11:06, 58.76s/it]
+Traceback (most recent call last):
+  File "dynamic_nerf_stylization.py", line 724, in <module>
+    main()
+  File "dynamic_nerf_stylization.py", line 469, in main
+    pred_fine.backward(gradient_fine[select_inds[:, 0], :], retain_graph=True)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 92, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 151, in dispatch_return
+    self.user_return(frame, arg)
+  File "/root/miniconda3/lib/python3.8/pdb.py", line 294, in user_return
+    self.interaction(frame, None)
+  File "/root/miniconda3/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/root/miniconda3/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/root/miniconda3/lib/python3.8/cmd.py", line 126, in cmdloop
+    line = input(self.prompt)
+OSError: [Errno 9] Bad file descriptor

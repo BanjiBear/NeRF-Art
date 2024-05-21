@@ -1,0 +1,685 @@
+nohup: ignoring input
+before signal registration
+after registration
+starting data loading
+Done with data loading
+Using cuda
+loaded background with shape  torch.Size([512, 512, 3])
+loading index map for latent codes...
+loaded latent codes from checkpoint, with shape torch.Size([5507, 32])
+loaded custom background of shape torch.Size([512, 512, 3])
+initialized latent codes with shape 1000 X 32
+computing boundix boxes probability maps
+PatchNCE target size:  [512, 512]
+Starting loop
+  0%|          | 0/1000000 [00:00<?, ?it/s]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 1.01171875
+Perceptual loss: 0.9179987907409668
+Global contrastive loss: 1.01875
+Local contrastive loss: 3.0187500000000003
+Back Propogate for iteration:  0
+                                           ================== Saved Checkpoint =================
+  0%|          | 0/1000000 [01:02<?, ?it/s]  0%|          | 1/1000000 [01:02<17430:19:38, 62.75s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 1.001953125
+Perceptual loss: 0.9441760182380676
+Global contrastive loss: 1.04296875
+Local contrastive loss: 2.91875
+Back Propogate for iteration:  1
+  0%|          | 2/1000000 [02:05<17356:40:52, 62.48s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.986328125
+Perceptual loss: 1.023595929145813
+Global contrastive loss: 1.0359375
+Local contrastive loss: 3.1015625
+Back Propogate for iteration:  2
+  0%|          | 3/1000000 [03:07<17413:33:43, 62.69s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.96923828125
+Perceptual loss: 1.1219885349273682
+Global contrastive loss: 1.01640625
+Local contrastive loss: 2.8984375
+Back Propogate for iteration:  3
+  0%|          | 4/1000000 [04:10<17447:12:44, 62.81s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95751953125
+Perceptual loss: 1.2102528810501099
+Global contrastive loss: 0.99375
+Local contrastive loss: 3.0359375
+Back Propogate for iteration:  4
+  0%|          | 5/1000000 [05:19<17987:20:27, 64.75s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95068359375
+Perceptual loss: 1.2905235290527344
+Global contrastive loss: 0.9953125
+Local contrastive loss: 2.85625
+Back Propogate for iteration:  5
+  0%|          | 6/1000000 [06:25<18105:01:18, 65.18s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93603515625
+Perceptual loss: 1.3435646295547485
+Global contrastive loss: 0.9906250000000001
+Local contrastive loss: 2.9781250000000004
+Back Propogate for iteration:  6
+  0%|          | 7/1000000 [07:30<18124:58:18, 65.25s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.927734375
+Perceptual loss: 1.3894915580749512
+Global contrastive loss: 0.97578125
+Local contrastive loss: 3.0625
+Back Propogate for iteration:  7
+  0%|          | 8/1000000 [08:33<17912:40:28, 64.49s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.927734375
+Perceptual loss: 1.4197567701339722
+Global contrastive loss: 0.9453125
+Local contrastive loss: 2.8156250000000003
+Back Propogate for iteration:  8
+  0%|          | 9/1000000 [09:41<18197:38:21, 65.51s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9296875
+Perceptual loss: 1.4556416273117065
+Global contrastive loss: 0.9375
+Local contrastive loss: 2.9390625000000004
+Back Propogate for iteration:  9
+  0%|          | 10/1000000 [10:43<17899:38:21, 64.44s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9267578125
+Perceptual loss: 1.4910199642181396
+Global contrastive loss: 0.9320312500000001
+Local contrastive loss: 2.9671875
+Back Propogate for iteration:  10
+  0%|          | 11/1000000 [11:45<17721:06:21, 63.80s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9248046875
+Perceptual loss: 1.528660535812378
+Global contrastive loss: 0.9125000000000001
+Local contrastive loss: 3.046875
+Back Propogate for iteration:  11
+  0%|          | 12/1000000 [12:53<18056:49:50, 65.01s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93359375
+Perceptual loss: 1.5704398155212402
+Global contrastive loss: 0.8875000000000001
+Local contrastive loss: 3.1031250000000004
+Back Propogate for iteration:  12
+  0%|          | 13/1000000 [13:57<17970:46:12, 64.70s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93017578125
+Perceptual loss: 1.61530601978302
+Global contrastive loss: 0.8914062500000001
+Local contrastive loss: 2.928125
+Back Propogate for iteration:  13
+  0%|          | 14/1000000 [14:59<17754:55:26, 63.92s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93017578125
+Perceptual loss: 1.6625510454177856
+Global contrastive loss: 0.88203125
+Local contrastive loss: 2.9250000000000003
+Back Propogate for iteration:  14
+  0%|          | 15/1000000 [16:01<17620:32:53, 63.43s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.91796875
+Perceptual loss: 1.7075785398483276
+Global contrastive loss: 0.8640625000000001
+Local contrastive loss: 2.7437500000000004
+Back Propogate for iteration:  15
+  0%|          | 16/1000000 [17:05<17608:06:58, 63.39s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.92236328125
+Perceptual loss: 1.7685084342956543
+Global contrastive loss: 0.8500000000000001
+Local contrastive loss: 2.865625
+Back Propogate for iteration:  16
+  0%|          | 17/1000000 [18:09<17729:40:09, 63.83s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9248046875
+Perceptual loss: 1.8267102241516113
+Global contrastive loss: 0.815625
+Local contrastive loss: 2.871875
+Back Propogate for iteration:  17
+  0%|          | 18/1000000 [19:12<17658:42:31, 63.57s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9267578125
+Perceptual loss: 1.8964941501617432
+Global contrastive loss: 0.7890625
+Local contrastive loss: 2.8671875
+Back Propogate for iteration:  18
+  0%|          | 19/1000000 [20:17<17745:40:09, 63.89s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93408203125
+Perceptual loss: 1.9498897790908813
+Global contrastive loss: 0.81015625
+Local contrastive loss: 2.965625
+Back Propogate for iteration:  19
+  0%|          | 20/1000000 [21:21<17751:30:05, 63.91s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93359375
+Perceptual loss: 2.001549243927002
+Global contrastive loss: 0.7957031250000001
+Local contrastive loss: 2.75625
+Back Propogate for iteration:  20
+  0%|          | 21/1000000 [22:22<17529:57:28, 63.11s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9345703125
+Perceptual loss: 2.084488868713379
+Global contrastive loss: 0.7953125000000001
+Local contrastive loss: 2.871875
+Back Propogate for iteration:  21
+  0%|          | 22/1000000 [23:23<17345:39:07, 62.45s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9306640625
+Perceptual loss: 2.1694157123565674
+Global contrastive loss: 0.7820312500000001
+Local contrastive loss: 2.975
+Back Propogate for iteration:  22
+  0%|          | 23/1000000 [24:25<17266:04:51, 62.16s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9384765625
+Perceptual loss: 2.282393455505371
+Global contrastive loss: 0.7835937500000001
+Local contrastive loss: 2.9203125
+Back Propogate for iteration:  23
+  0%|          | 24/1000000 [25:28<17333:21:46, 62.40s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.94482421875
+Perceptual loss: 2.395883560180664
+Global contrastive loss: 0.7601562500000001
+Local contrastive loss: 2.81875
+Back Propogate for iteration:  24
+  0%|          | 25/1000000 [26:32<17494:18:01, 62.98s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9423828125
+Perceptual loss: 2.4270436763763428
+Global contrastive loss: 0.748046875
+Local contrastive loss: 2.8203125
+Back Propogate for iteration:  25
+  0%|          | 26/1000000 [27:39<17836:00:44, 64.21s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93359375
+Perceptual loss: 2.5024993419647217
+Global contrastive loss: 0.72265625
+Local contrastive loss: 2.771875
+Back Propogate for iteration:  26
+  0%|          | 27/1000000 [28:43<17818:27:28, 64.15s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9365234375
+Perceptual loss: 2.5360488891601562
+Global contrastive loss: 0.680859375
+Local contrastive loss: 2.7859375
+Back Propogate for iteration:  27
+  0%|          | 28/1000000 [29:46<17707:29:30, 63.75s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9306640625
+Perceptual loss: 2.5488197803497314
+Global contrastive loss: 0.677734375
+Local contrastive loss: 2.865625
+Back Propogate for iteration:  28
+  0%|          | 29/1000000 [30:48<17610:14:22, 63.40s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93115234375
+Perceptual loss: 2.567087173461914
+Global contrastive loss: 0.654296875
+Local contrastive loss: 2.78125
+Back Propogate for iteration:  29
+  0%|          | 30/1000000 [31:51<17505:26:50, 63.02s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93701171875
+Perceptual loss: 2.5615172386169434
+Global contrastive loss: 0.65234375
+Local contrastive loss: 2.8171875
+Back Propogate for iteration:  30
+  0%|          | 31/1000000 [32:55<17649:39:32, 63.54s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93505859375
+Perceptual loss: 2.5418550968170166
+Global contrastive loss: 0.6507812500000001
+Local contrastive loss: 2.78125
+Back Propogate for iteration:  31
+  0%|          | 32/1000000 [33:57<17515:00:43, 63.06s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9326171875
+Perceptual loss: 2.5229504108428955
+Global contrastive loss: 0.655859375
+Local contrastive loss: 2.7796875
+Back Propogate for iteration:  32
+  0%|          | 33/1000000 [35:02<17678:06:23, 63.64s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.927734375
+Perceptual loss: 2.4862873554229736
+Global contrastive loss: 0.665234375
+Local contrastive loss: 2.7125000000000004
+Back Propogate for iteration:  33
+  0%|          | 34/1000000 [36:04<17548:37:36, 63.18s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9306640625
+Perceptual loss: 2.4254000186920166
+Global contrastive loss: 0.667578125
+Local contrastive loss: 2.7765625000000003
+Back Propogate for iteration:  34
+  0%|          | 35/1000000 [37:06<17387:20:30, 62.60s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93408203125
+Perceptual loss: 2.3226351737976074
+Global contrastive loss: 0.6824218750000001
+Local contrastive loss: 2.8156250000000003
+Back Propogate for iteration:  35
+  0%|          | 36/1000000 [38:08<17357:30:35, 62.49s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9296875
+Perceptual loss: 2.219439744949341
+Global contrastive loss: 0.6765625000000001
+Local contrastive loss: 2.740625
+Back Propogate for iteration:  36
+  0%|          | 37/1000000 [39:11<17451:30:15, 62.83s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.92578125
+Perceptual loss: 2.1358275413513184
+Global contrastive loss: 0.68359375
+Local contrastive loss: 2.6906250000000003
+Back Propogate for iteration:  37
+  0%|          | 38/1000000 [40:15<17487:01:40, 62.96s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9306640625
+Perceptual loss: 2.0723109245300293
+Global contrastive loss: 0.676953125
+Local contrastive loss: 2.6796875
+Back Propogate for iteration:  38
+  0%|          | 39/1000000 [41:19<17612:53:35, 63.41s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.935546875
+Perceptual loss: 2.0229270458221436
+Global contrastive loss: 0.6843750000000001
+Local contrastive loss: 2.7906250000000004
+Back Propogate for iteration:  39
+  0%|          | 40/1000000 [42:22<17594:18:12, 63.34s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95166015625
+Perceptual loss: 1.9934206008911133
+Global contrastive loss: 0.6824218750000001
+Local contrastive loss: 2.6750000000000003
+Back Propogate for iteration:  40
+  0%|          | 41/1000000 [43:28<17756:33:33, 63.93s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95849609375
+Perceptual loss: 1.979090690612793
+Global contrastive loss: 0.6863281250000001
+Local contrastive loss: 2.7
+Back Propogate for iteration:  41
+  0%|          | 42/1000000 [44:30<17622:54:58, 63.45s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.96337890625
+Perceptual loss: 1.9766266345977783
+Global contrastive loss: 0.6976562500000001
+Local contrastive loss: 2.7421875
+Back Propogate for iteration:  42
+  0%|          | 43/1000000 [45:36<17821:05:09, 64.16s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9658203125
+Perceptual loss: 1.9680206775665283
+Global contrastive loss: 0.69296875
+Local contrastive loss: 2.8109375
+Back Propogate for iteration:  43
+  0%|          | 44/1000000 [46:42<18028:08:17, 64.90s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9619140625
+Perceptual loss: 1.9618250131607056
+Global contrastive loss: 0.693359375
+Local contrastive loss: 2.6640625
+Back Propogate for iteration:  44
+  0%|          | 45/1000000 [47:50<18290:42:52, 65.85s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9609375
+Perceptual loss: 1.9626775979995728
+Global contrastive loss: 0.6953125
+Local contrastive loss: 2.7421875
+Back Propogate for iteration:  45
+  0%|          | 46/1000000 [48:56<18254:28:41, 65.72s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9599609375
+Perceptual loss: 1.9551485776901245
+Global contrastive loss: 0.6882812500000001
+Local contrastive loss: 2.7593750000000004
+Back Propogate for iteration:  46
+  0%|          | 47/1000000 [50:04<18471:15:28, 66.50s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.97021484375
+Perceptual loss: 1.9515775442123413
+Global contrastive loss: 0.69453125
+Local contrastive loss: 2.725
+Back Propogate for iteration:  47
+  0%|          | 48/1000000 [51:14<18754:31:22, 67.52s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.970703125
+Perceptual loss: 1.9606478214263916
+Global contrastive loss: 0.6820312500000001
+Local contrastive loss: 2.7015625
+Back Propogate for iteration:  48
+  0%|          | 49/1000000 [52:18<18493:40:20, 66.58s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9599609375
+Perceptual loss: 1.9637360572814941
+Global contrastive loss: 0.68359375
+Local contrastive loss: 2.79375
+Back Propogate for iteration:  49
+  0%|          | 50/1000000 [53:25<18452:54:56, 66.43s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.96142578125
+Perceptual loss: 1.9772391319274902
+Global contrastive loss: 0.6820312500000001
+Local contrastive loss: 2.7125000000000004
+Back Propogate for iteration:  50
+  0%|          | 51/1000000 [54:31<18493:28:59, 66.58s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95654296875
+Perceptual loss: 1.9817473888397217
+Global contrastive loss: 0.6859375000000001
+Local contrastive loss: 2.7281250000000004
+Back Propogate for iteration:  51
+  0%|          | 52/1000000 [55:34<18166:57:02, 65.40s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95654296875
+Perceptual loss: 1.9810457229614258
+Global contrastive loss: 0.6734375
+Local contrastive loss: 2.75
+Back Propogate for iteration:  52
+  0%|          | 53/1000000 [56:36<17908:17:18, 64.47s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9609375
+Perceptual loss: 1.9655064344406128
+Global contrastive loss: 0.6765625000000001
+Local contrastive loss: 2.7171875
+Back Propogate for iteration:  53
+  0%|          | 54/1000000 [57:39<17742:00:43, 63.87s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9560546875
+Perceptual loss: 1.9486366510391235
+Global contrastive loss: 0.671875
+Local contrastive loss: 2.7375000000000003
+Back Propogate for iteration:  54
+  0%|          | 55/1000000 [58:42<17682:19:44, 63.66s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9638671875
+Perceptual loss: 1.9265780448913574
+Global contrastive loss: 0.6765625000000001
+Local contrastive loss: 2.7078125
+Back Propogate for iteration:  55
+  0%|          | 56/1000000 [59:45<17635:29:15, 63.49s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.97119140625
+Perceptual loss: 1.907893419265747
+Global contrastive loss: 0.6839843750000001
+Local contrastive loss: 2.7515625000000004
+Back Propogate for iteration:  56
+  0%|          | 57/1000000 [1:00:53<17994:15:30, 64.78s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.97216796875
+Perceptual loss: 1.8887487649917603
+Global contrastive loss: 0.681640625
+Local contrastive loss: 2.8000000000000003
+Back Propogate for iteration:  57
+  0%|          | 58/1000000 [1:02:01<18225:27:02, 65.62s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.97412109375
+Perceptual loss: 1.8710068464279175
+Global contrastive loss: 0.676953125
+Local contrastive loss: 2.715625
+Back Propogate for iteration:  58
+  0%|          | 59/1000000 [1:03:08<18413:08:49, 66.29s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.96533203125
+Perceptual loss: 1.861146092414856
+Global contrastive loss: 0.676953125
+Local contrastive loss: 2.6812500000000004
+Back Propogate for iteration:  59
+  0%|          | 60/1000000 [1:04:19<18803:41:47, 67.70s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95263671875
+Perceptual loss: 1.8730210065841675
+Global contrastive loss: 0.6722656250000001
+Local contrastive loss: 2.640625
+Back Propogate for iteration:  60
+  0%|          | 61/1000000 [1:05:27<18773:43:15, 67.59s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95166015625
+Perceptual loss: 1.887782096862793
+Global contrastive loss: 0.6828125
+Local contrastive loss: 2.6734375000000004
+Back Propogate for iteration:  61
+  0%|          | 62/1000000 [1:06:33<18689:21:28, 67.29s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.93798828125
+Perceptual loss: 1.8853728771209717
+Global contrastive loss: 0.680859375
+Local contrastive loss: 2.7296875000000003
+Back Propogate for iteration:  62
+  0%|          | 63/1000000 [1:07:42<18791:37:53, 67.65s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.9453125
+Perceptual loss: 1.884709119796753
+Global contrastive loss: 0.6781250000000001
+Local contrastive loss: 2.7453125000000003
+Back Propogate for iteration:  63
+  0%|          | 64/1000000 [1:08:50<18854:40:14, 67.88s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.951171875
+Perceptual loss: 1.8890610933303833
+Global contrastive loss: 0.675
+Local contrastive loss: 2.7203125000000004
+Back Propogate for iteration:  64
+  0%|          | 65/1000000 [1:09:56<18717:36:10, 67.39s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.94384765625
+Perceptual loss: 1.9088801145553589
+Global contrastive loss: 0.6785156250000001
+Local contrastive loss: 2.803125
+Back Propogate for iteration:  65
+  0%|          | 66/1000000 [1:11:02<18559:26:56, 66.82s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.95361328125
+Perceptual loss: 1.9598332643508911
+Global contrastive loss: 0.67890625
+Local contrastive loss: 2.75625
+Back Propogate for iteration:  66
+  0%|          | 67/1000000 [1:12:03<18112:11:25, 65.21s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.951171875
+Perceptual loss: 1.9680405855178833
+Global contrastive loss: 0.6921875000000001
+Local contrastive loss: 2.740625
+Back Propogate for iteration:  67
+  0%|          | 68/1000000 [1:13:09<18182:13:27, 65.46s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.951171875
+Perceptual loss: 1.9398094415664673
+Global contrastive loss: 0.6824218750000001
+Local contrastive loss: 2.834375
+Back Propogate for iteration:  68
+  0%|          | 69/1000000 [1:14:13<18064:04:03, 65.04s/it]current image index:  0
+total images:  1
+predicting
+Done prediction
+Directional CLIP loss: 0.951171875
+Perceptual loss: 1.9001587629318237
+Global contrastive loss: 0.67109375
+Local contrastive loss: 2.79375
+Back Propogate for iteration:  69
+--Call--
+> /root/miniconda3/lib/python3.8/site-packages/torch/_tensor.py(26)wrapped()
+-> @functools.wraps(f, assigned=assigned)
+(Pdb)   0%|          | 69/1000000 [1:15:13<18170:09:03, 65.42s/it]
+Traceback (most recent call last):
+  File "dynamic_nerf_stylization.py", line 723, in <module>
+    main()
+  File "dynamic_nerf_stylization.py", line 482, in main
+    rgb_coarse, _, _, rgb_fine, _, _, weights = run_one_iter_of_nerf(
+  File "/root/autodl-tmp/DynamicNerf/4D-Facial-Avatars/nerface_code/nerf-pytorch/nerf/train_utils.py", line 327, in run_one_iter_of_nerf
+    pred = [
+  File "/root/autodl-tmp/DynamicNerf/4D-Facial-Avatars/nerface_code/nerf-pytorch/nerf/train_utils.py", line 328, in <listcomp>
+    predict_and_render_radiance(
+  File "/root/autodl-tmp/DynamicNerf/4D-Facial-Avatars/nerface_code/nerf-pytorch/nerf/train_utils.py", line 159, in predict_and_render_radiance
+    radiance_field = run_network(
+  File "/root/autodl-tmp/DynamicNerf/4D-Facial-Avatars/nerface_code/nerf-pytorch/nerf/train_utils.py", line 22, in run_network
+    embedded_dirs = embeddirs_fn(input_dirs_flat)
+  File "/root/autodl-tmp/DynamicNerf/4D-Facial-Avatars/nerface_code/nerf-pytorch/nerf/nerf_helpers.py", line 252, in <lambda>
+    return lambda x: positional_encoding(
+  File "/root/autodl-tmp/DynamicNerf/4D-Facial-Avatars/nerface_code/nerf-pytorch/nerf/nerf_helpers.py", line 220, in positional_encoding
+    frequency_bands = 2.0 ** torch.linspace(
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/_tensor.py", line 31, in wrapped
+    return f(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/_tensor.py", line 638, in __rpow__
+    return torch.tensor(other, dtype=dtype, device=self.device) ** self
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/_tensor.py", line 26, in wrapped
+    @functools.wraps(f, assigned=assigned)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_call(frame, arg)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 134, in dispatch_call
+    self.user_call(frame, arg)
+  File "/root/miniconda3/lib/python3.8/pdb.py", line 252, in user_call
+    self.interaction(frame, None)
+  File "/root/miniconda3/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/root/miniconda3/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/root/miniconda3/lib/python3.8/cmd.py", line 126, in cmdloop
+    line = input(self.prompt)
+OSError: [Errno 9] Bad file descriptor

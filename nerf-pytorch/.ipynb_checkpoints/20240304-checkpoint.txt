@@ -1,0 +1,20 @@
+before signal registration
+after registration
+starting data loading
+Done with data loading
+Using cuda
+loaded background with shape  torch.Size([512, 512, 3])
+loading index map for latent codes...
+loaded latent codes from checkpoint, with shape torch.Size([5507, 32])
+loaded custom background of shape torch.Size([512, 512, 3])
+initialized latent codes with shape 5507 X 32
+computing boundix boxes probability maps
+PatchNCE target size:  [512, 512]
+Starting loop
+predicting
+Done prediction
+torch.Size([1, 262144, 3]) torch.Size([1, 262144, 3])
+Directional CLIP loss: 0.931640625
+Perceptual loss: 0.0
+Global contrastive loss: 1.2296875
+Local contrastive loss: 2.9328125000000003
